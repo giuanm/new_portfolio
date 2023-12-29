@@ -1,0 +1,21 @@
+.footer{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+}
+
+.footer span {
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+}
+.socialLogo{
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    border-radius: 1rem;
+}

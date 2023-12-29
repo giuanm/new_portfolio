@@ -1,0 +1,167 @@
+body{
+    background-color: #313131;
+    color: #f0f3f5;
+}
+
+.mainHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 70%;
+    background-color: #3f3f3f;
+    margin: 15px auto;
+    border-radius: 0.25rem;
+    box-shadow: 0px 5px 15px #000, 2px 3px 8px #f00;
+}
+
+.mainHome .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px #000;
+
+    &:hover{
+        box-shadow: 0px 5px 12px #f00, 2px 3px 8px #000;
+    }
+
+}
+
+.HardSkills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+
+.HardSkills .hardDetalls{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.HardSkills .logoSkill{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+    &:hover{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.HardSkills ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.HardSkills .hardDetalls li{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mainHome .SoftSkills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.SoftSkills ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+    list-style-type: georgian;
+}
+
+.targeting .pages{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.targeting .pages a{
+    color: #f0f3f5;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 0;
+    border: 1.5px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 3px #f00;
+
+    &:hover{
+        box-shadow: 3px 4px 5px #f00;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .mainHome {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "HardSkills"
+            "SoftSkills"
+        ;
+    }
+
+    .mainHome .header {
+        display: grid;
+        grid-template-areas:
+            "photo"
+            "intro"
+        ;
+        grid-area: header;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .mainHome .header .photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 40%;
+        margin: 10px auto;        
+    }
+
+    .mainHome .HardSkills {
+        grid-area: HardSkills;
+        margin: 15px auto;
+        width: 60%;
+    }
+
+    .mainHome .HardSkills ul{
+        display: grid;
+        grid-template-areas:
+            "col1 col2"
+        ;
+        margin: 0;
+        padding: 0;
+        justify-items: center;
+    }
+
+    .mainHome .HardSkills ul .hardDetalls{
+        margin:10px;
+        padding: 0;
+    }
+
+    .mainHome .SoftSkills {
+        grid-area: SoftSkills;
+        margin: 15px auto;
+    }
+}

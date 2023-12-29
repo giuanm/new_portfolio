@@ -1,0 +1,70 @@
+.flags_lang{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag_lang{
+    width: 70px;
+    margin: 10px;
+    
+    &:hover{
+        cursor: pointer;
+        width: 68px;
+        box-shadow: 1px 1px 5px #f00;
+    }
+}
+
+.mainFirstPage{
+    background-color: #313131;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 84vh;
+
+    display: grid;
+    grid-template-areas:
+    "boxForm draw"
+    ;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.draw{
+    grid-area: draw;
+    max-width: 220px;
+    margin: auto;
+    margin-left: 0;
+}
+
+.boxForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxForm p{
+    max-width: 320px;
+    margin: 2rem auto;
+}
+
+@media only screen and (max-width: 575px){
+
+    .mainFirstPage{
+        grid-template-areas:
+        "boxForm"
+        "draw"
+        ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.8fr 1fr;
+    }
+
+    .draw{
+        grid-area: draw;
+        width: 50%;
+        min-width: 200px;
+        margin: 0 auto 60px;
+        padding: 0;
+    }
+}
