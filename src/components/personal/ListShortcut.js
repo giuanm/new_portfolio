@@ -5,6 +5,7 @@ import { useUrlContext } from '../../hooks/useUrlContext';
 import about from "../../assets/icons/aboutMe.svg";
 import hobbies from "../../assets/icons/hobbies.svg";
 import personality from "../../assets/icons/personality.svg";
+import Hobbies from './Hobbies';
 
 const StyledListMenuIcon = styled.div`
     display: flex;
@@ -43,7 +44,7 @@ const ListShortcut = () => {
         </StyledListMenuIcon>
         <StyledListMenuIcon>
             <img src={hobbies} alt="hobbies" className='iconMenu' />        
-            <li>{data.hobbies}</li>
+            <Hobbies />
         </StyledListMenuIcon>
     </>
   )

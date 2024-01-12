@@ -1,22 +1,14 @@
-import React from 'react';
-import './Personal.css';
-import teste1 from '../assets/favicon.jpg'
-import Burger from '../components/Burger';
+import './Professional.css';
+// import { useNavigate} from 'react-router-dom'
+
+// const navigate = useNavigate()
 
 const Professional = () => {
   return (
     <div>
-      <nav className='navPersonal'>
-        <div className='menuPersonal'>
-          <img src={teste1} alt="avatar" className='avatar'/>
-          <p>teste</p>
-        </div>
-        <Burger />
-      </nav>
-      <div className='corpo'>
-        <h1>Professional</h1>
-
-      </div>
+      <h1><a href='/new_portfolio/home' >Home</a></h1>
+      <h3>Em construção, favor acessar aqui <a href="https://giuanm.github.io/js-developer-portfolio/#">Portifólio</a></h3>
+      <h3>Under construction, please access here <a href="https://giuanm.github.io/js-developer-portfolio/#">Portfolio</a></h3>
     </div>
   )
 }

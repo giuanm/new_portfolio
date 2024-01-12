@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 import {NavLink} from 'react-router-dom'
 
+import {useFetch} from "../hooks/useFetch";
+import { useUrlContext } from '../hooks/useUrlContext';
+
 const Ul = styled.ul`
   position: fixed;
   top: -20px;
@@ -39,11 +42,16 @@ const Ul = styled.ul`
 `
 
 const Navbar = ({open}) => {
+  const {url} = useUrlContext();
+  const {data, loading} = useFetch(url);
+
   return (
     <Ul open={open}>
-      <NavLink to="/new_portfolio/home">Home</NavLink>
-      <NavLink to="/new_portfolio/personal">Pessoal</NavLink>
-      <NavLink to="/new_portfolio/professional">Profissional</NavLink>
+      {loading && (<>
+        <NavLink to="/new_portfolio/home">Home</NavLink>
+        <NavLink to="/new_portfolio/personal">{data.personal}</NavLink>
+        <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>
+      </>)}
     </Ul>
   )
 }
