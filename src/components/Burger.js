@@ -8,7 +8,7 @@ const StyledBurger = styled.div`
     margin-right: 2rem;
     display: flex;
     flex-flow: column nowrap;
-    z-index: 20;
+    z-index: 2;
     
     &:hover{
         cursor: pointer;

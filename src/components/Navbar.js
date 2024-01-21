@@ -47,7 +47,7 @@ const Navbar = ({open}) => {
 
   return (
     <Ul open={open}>
-      {loading && (<>
+      {!loading && (<>
         <NavLink to="/new_portfolio/home">Home</NavLink>
         <NavLink to="/new_portfolio/personal">{data.personal}</NavLink>
         <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>

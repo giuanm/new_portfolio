@@ -9,7 +9,14 @@ import Atalhos from '../components/personal/Atalhos';
 import ListShortcut from '../components/personal/ListShortcut';
 import Posts from '../components/personal/Posts';
 
+import {useFetch} from "../hooks/useFetch";
+import { useUrlContext } from '../hooks/useUrlContext';
+
 const Personal = () => {
+  
+  const {url} = useUrlContext();
+  const {data} = useFetch(url);
+  
   return (
     <div>
       <nav className='navPersonal'>
@@ -22,8 +29,8 @@ const Personal = () => {
         <h1 className='navTitle'>Giuan Ferreira</h1>
         <ul className='listMenuPage'>
           <NavLink to="/new_portfolio/home">Home</NavLink>
-          <NavLink to="/new_portfolio/personal">Pessoal</NavLink>
-          <NavLink to="/new_portfolio/professional">Profissional</NavLink>
+          <NavLink to="/new_portfolio/personal">{data.personal}</NavLink>
+          <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>
         </ul>
         <div className='burger'>
           <Burger />
