@@ -121,7 +121,7 @@
 .descricao{
     margin: 15px 15px;
     padding: 0 15px 0 35px;
-    text-align: justify;
+    text-align: left;
 }
 
 .flag{
@@ -209,6 +209,9 @@
         margin-top: 15px;
     }
     .corpo{
+        width: 90%;
+    }
+    .flag{
         width: 90%;
     }
 }
