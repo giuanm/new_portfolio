@@ -118,21 +118,21 @@
     padding: 0;
 }
 
-.postes p{
+.descricao{
     margin: 15px 15px;
-    padding: 0;
+    padding: 0 15px 0 35px;
     text-align: justify;
 }
 
 .flag{
-    height: 169px;
-    width: 225px;
+    height: 259px;
+    width: 335px;
     border-radius: 10%;
     border-right: 1px solid #000;
     box-shadow: 0 3px 3px #000;
 }
 .videoHobbies{
-    width: 98%;
+    width: 90%;
     height: 351px;
     border-radius: 2%;
     border-right: 1px solid #000;

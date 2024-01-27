@@ -1,20 +1,19 @@
 import {useFetch} from "../../hooks/useFetch";
 import { useUrlContext } from '../../hooks/useUrlContext';
-import photo from '../../assets/icons/avatarPersonality.svg'
+import photo from '../../assets/icons/danca.jpeg'
 
-const Personality = () => {
+const Danca = () => {
     const {url} = useUrlContext();
     const {data, loading} = useFetch(url);
   return (
     <>
       {!loading && (<div className='postes'>
-        <h1>{data.typePersonality}</h1>
-        <p>{data.desPersonality1}</p>
-        <p>{data.desPersonality2}</p>
+        <h1>{data.danc}</h1>
+        <p className="descricao">{data.danca}</p>
         <img src={photo} alt="foto" className='flag'/>
       </div>)}
     </>
   )
 }
 
-export default Personality
+export default Danca

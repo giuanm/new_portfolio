@@ -1,15 +1,20 @@
-import AboutMe from "./AboutMe"
-import Personality from "./Personality"
-import Alert from "./Alert";
-import Danca from "./Danca";
-import Tango from "./Tango";
-import Zouk from "./Zouk";
-import Forro from "./Forro";
-import Bachata from "./Bachata";
+import AboutMe from "../Postagens_Personal/AboutMe"
+import Personality from "../Postagens_Personal/Personality"
+// import Alert from "./Alert";
+import Danca from "../Postagens_Personal/Danca";
+import Tango from "../Postagens_Personal/Tango";
+import Zouk from "../Postagens_Personal/Zouk";
+import Forro from "../Postagens_Personal/Forro";
+import Bachata from "../Postagens_Personal/Bachata";
+import FaroPT from "../Postagens_Personal/FaroPT";
+import LisbonPT from "../Postagens_Personal/LisbonPT";
+import London from "../Postagens_Personal/London";
+import Dublin from "../Postagens_Personal/Dublin";
+import Malta from "../Postagens_Personal/Malta";
+import NLP from "../Postagens_Personal/NLP";
 
 const Posts = () => {
   return (<>
-    <Alert />    
     <AboutMe />
     <Personality />
     <Danca />
@@ -17,6 +22,12 @@ const Posts = () => {
     <Zouk />
     <Bachata />
     <Forro />
+    <FaroPT />
+    <LisbonPT />
+    <London />
+    <Dublin />
+    <Malta />
+    <NLP />
   </>)
 }
 
