@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.2eb2aaa8.css",
-    "main.js": "/new_portfolio/static/js/main.46d02a71.js",
+    "main.css": "/new_portfolio/static/css/main.809948f3.css",
+    "main.js": "/new_portfolio/static/js/main.3e1df966.js",
+    "static/media/Faro.jpg": "/new_portfolio/static/media/Faro.21463797aa1219660998.jpg",
     "static/media/FormDraw.png": "/new_portfolio/static/media/FormDraw.0e2b2013bbfc69f279a1.png",
+    "static/media/Lisbon.jpg": "/new_portfolio/static/media/Lisbon.63a0e06355412ac99995.jpg",
+    "static/media/london.jpg": "/new_portfolio/static/media/london.5f037e172ecf74436a38.jpg",
     "static/media/img_language.jpg": "/new_portfolio/static/media/img_language.e4151c9899fd4006ce47.jpg",
     "static/media/avatarPersonality.svg": "/new_portfolio/static/media/avatarPersonality.5b92bee57ffe060b973c1526561ee04b.svg",
     "static/media/ads2.png": "/new_portfolio/static/media/ads2.56b9b5c6e36eaefc74ae.png",
@@ -11,19 +14,19 @@
     "static/media/ads1.png": "/new_portfolio/static/media/ads1.cbbbd5d4be8a504996ea.png",
     "static/media/ads3.png": "/new_portfolio/static/media/ads3.54e2540a0259bf174404.png",
     "static/media/icons8-github.gif": "/new_portfolio/static/media/icons8-github.2f3eb7a07dd668b3fc91.gif",
+    "static/media/NLP.jpeg": "/new_portfolio/static/media/NLP.31df2a3b2c7e7ad67b90.jpeg",
     "static/media/pt.svg": "/new_portfolio/static/media/pt.93eb0a0adfeabc65832086aa44225b2b.svg",
     "static/media/aboutMe.svg": "/new_portfolio/static/media/aboutMe.c85f2b2f0311fb783e591cd799d1850d.svg",
     "static/media/hobbies.svg": "/new_portfolio/static/media/hobbies.6032a2e7e4d06bb90f85e0fdb0cab81e.svg",
-    "static/media/construction.svg": "/new_portfolio/static/media/construction.7067873ce2cb3ee7cf0a09ef7c9cb942.svg",
     "static/media/personality.svg": "/new_portfolio/static/media/personality.cea50f7cd8261e5c939ce87e6ec128db.svg",
     "static/media/send.svg": "/new_portfolio/static/media/send.1023a90a2d8e58f611cfccfb61861fe4.svg",
     "index.html": "/new_portfolio/index.html",
     "static/media/uk.svg": "/new_portfolio/static/media/uk.2d92a67640467e5a97ce8c4aa50979d2.svg",
-    "main.2eb2aaa8.css.map": "/new_portfolio/static/css/main.2eb2aaa8.css.map",
-    "main.46d02a71.js.map": "/new_portfolio/static/js/main.46d02a71.js.map"
+    "main.809948f3.css.map": "/new_portfolio/static/css/main.809948f3.css.map",
+    "main.3e1df966.js.map": "/new_portfolio/static/js/main.3e1df966.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eb2aaa8.css",
-    "static/js/main.46d02a71.js"
+    "static/css/main.809948f3.css",
+    "static/js/main.3e1df966.js"
   ]
 }
