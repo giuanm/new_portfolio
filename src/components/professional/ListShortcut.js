@@ -5,7 +5,7 @@ import { useUrlContext } from '../../hooks/useUrlContext';
 import about from "../../assets/icons/aboutMe.svg";
 import hobbies from "../../assets/icons/hobbies.svg";
 import personality from "../../assets/icons/personality.svg";
-import Hobbies from './Hobbies';
+// import Hobbies from './Hobbies';
 
 const StyledListMenuIcon = styled.div`
     display: flex;
@@ -53,12 +53,12 @@ const ListShortcut = () => {
             <li onClick={handleClickScrollAbout}>{data.aboutme_camp}</li>
         </StyledListMenuIcon>
         <StyledListMenuIcon>
-            <img src={personality} alt="personality" className='iconMenu' />        
-            <li onClick={handleClickScrollPersonality}>{data.personality}</li>
+            <img src={hobbies} alt="projects" className='iconMenu' />        
+            <li>{data.project}</li>
         </StyledListMenuIcon>
         <StyledListMenuIcon>
-            <img src={hobbies} alt="hobbies" className='iconMenu' />        
-            <Hobbies />
+            <img src={personality} alt="experience" className='iconMenu' />        
+            <li onClick={handleClickScrollPersonality}>{data.experienceCamp}</li>
         </StyledListMenuIcon>
     </>
   )

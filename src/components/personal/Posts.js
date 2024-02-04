@@ -22,12 +22,12 @@ const Posts = () => {
     <Zouk />
     <Bachata />
     <Forro />
+    <NLP />
     <FaroPT />
     <LisbonPT />
     <London />
     <Dublin />
     <Malta />
-    <NLP />
   </>)
 }
 

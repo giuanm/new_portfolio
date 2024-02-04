@@ -38,25 +38,44 @@ const StyledListMenuIcon = styled.section`
 const ListHobbies = ({open}) => {
     // const {url} = useUrlContext();
     // const {data} = useFetch(url);
+    const handleClickScrollDance = () => {
+        const element = document.getElementById('dance');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     
+    const handleClickScrollTravel = () => {
+        const element = document.getElementById('trip');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const handleClickScrollNlp = () => {
+        const element = document.getElementById('nlp');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
   return (
     <div>
         <StyledListMenuIcon open={!open}>
             <div>
                 <img src={about} alt="about me" className='iconMenu' />
-                <li>Dance</li>
-            </div>
-        </StyledListMenuIcon>
-        <StyledListMenuIcon open={!open}>
-            <div>
-                <img src={personality} alt="personality" className='iconMenu' />        
-                <li>Travel</li>
+                <li onClick={handleClickScrollDance}>Dance</li>
             </div>
         </StyledListMenuIcon>
         <StyledListMenuIcon open={!open}>
             <div>
                 <img src={hobbies} alt="hobbies" className='iconMenu' />        
-                <li>NLP</li>
+                <li onClick={handleClickScrollNlp}>NLP</li>
+            </div>
+        </StyledListMenuIcon>
+        <StyledListMenuIcon open={!open}>
+            <div>
+                <img src={personality} alt="personality" className='iconMenu' />        
+                <li onClick={handleClickScrollTravel}>Travel</li>
             </div>
         </StyledListMenuIcon>
     </div>

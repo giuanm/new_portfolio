@@ -7,7 +7,7 @@ const NLP = () => {
     const {data, loading} = useFetch(url);
   return (
     <>
-      {!loading && (<div className='postes'>
+      {!loading && (<div className='postes' id="nlp">
         <h1>{data.nlp}</h1>
         <p className="descricao">{data.nlpD1}</p>
         <p className="descricao">{data.nlpD2}</p>

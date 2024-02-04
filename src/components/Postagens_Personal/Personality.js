@@ -7,7 +7,7 @@ const Personality = () => {
     const {data, loading} = useFetch(url);
   return (
     <>
-      {!loading && (<div className='postes'>
+      {!loading && (<div className='postes' id="personality">
         <h1>{data.typePersonality}</h1>
         <p className="descricao">{data.desPersonality1}</p>
         <p className="descricao">{data.desPersonality2}</p>

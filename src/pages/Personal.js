@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom'
 import './Personal.css';
-import teste1 from '../assets/favicon.jpg';
+import avatar from '../assets/favicon.jpg';
 
 // Hooks imports
 import Burger from '../components/Burger';
@@ -21,7 +21,7 @@ const Personal = () => {
     <div>
       <nav className='navPersonal'>
         <div className='menuPersonal'>
-          <img src={teste1} alt="avatar" className='avatar'/>
+          <img src={avatar} alt="avatar" className='avatar'/>
           <ul className='atalhosNav'>
             <Atalhos />
           </ul>

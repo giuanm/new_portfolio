@@ -60,8 +60,8 @@ function Home() {
           <section className='targeting'>
             <h4>{data.targetingMsg}</h4>
             <div className='pages'>
-              <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>
               <NavLink to="/new_portfolio/personal">{data.personal}</NavLink>
+              <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>
             </div>
           </section>
         </main>
