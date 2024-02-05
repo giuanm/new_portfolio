@@ -45,6 +45,13 @@ const ListShortcut = () => {
           element.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
+    const handleClickScrollProject = () => {
+        const element = document.getElementById('project');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     
   return (
     <>
@@ -54,7 +61,7 @@ const ListShortcut = () => {
         </StyledListMenuIcon>
         <StyledListMenuIcon>
             <img src={hobbies} alt="projects" className='iconMenu' />        
-            <li>{data.project}</li>
+            <li onClick={handleClickScrollProject}>{data.project}</li>
         </StyledListMenuIcon>
         <StyledListMenuIcon>
             <img src={personality} alt="experience" className='iconMenu' />        
