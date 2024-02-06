@@ -1,6 +1,6 @@
 import {useFetch} from "../../hooks/useFetch";
 import { useUrlContext } from '../../hooks/useUrlContext';
-import github from "../../assets/icons/icons8-github.gif";
+import github from '../../assets/icons/Project.jpg';
 
 const Projects = () => {
     const {url} = useUrlContext();
@@ -9,8 +9,8 @@ const Projects = () => {
     <>
       {!loading && (<div className='postes' id="project">
         <h1>{data.project}</h1>
-        <p className="descricao">{data.projectDesc}</p>
         <img src={github} alt="foto" className='flag'/>
+        <p className="descricao">{data.projectDesc}</p>
       </div>)}
     </>
   )

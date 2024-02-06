@@ -9,6 +9,7 @@ const NLP = () => {
     <>
       {!loading && (<div className='postes' id="nlp">
         <h1>{data.nlp}</h1>
+        <img src={photo} alt="foto" className='flag'/>
         <p className="descricao">{data.nlpD1}</p>
         <p className="descricao">{data.nlpD2}</p>
         <ul>
@@ -18,7 +19,6 @@ const NLP = () => {
           <li className="descricao">{data.nlpE4}</li>
           <li className="descricao">{data.nlpE5}</li>
         </ul>
-        <img src={photo} alt="foto" className='flag'/>
       </div>)}
     </>
   )

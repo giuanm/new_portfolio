@@ -9,9 +9,9 @@ const Personality = () => {
     <>
       {!loading && (<div className='postes' id="personality">
         <h1>{data.typePersonality}</h1>
+        <img src={photo} alt="foto" className='flag'/>
         <p className="descricao">{data.desPersonality1}</p>
         <p className="descricao">{data.desPersonality2}</p>
-        <img src={photo} alt="foto" className='flag'/>
       </div>)}
     </>
   )

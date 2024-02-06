@@ -11,8 +11,8 @@ const LisbonPT = () => {
         <a href="https://drive.google.com/drive/folders/1D7EuNiGH8fSLiqvtP-qEN-7JSecQdS19?usp=drive_link" target="_blank" rel="noreferrer">
           <h1>{data.lisbon} - Portugal</h1>
         </a>
-        <p className="descricao">{data.lisbonPT}</p>
         <img src={photo} alt="foto" className='flag'/>
+        <p className="descricao">{data.lisbonPT}</p>
       </div>)}
     </>
   )

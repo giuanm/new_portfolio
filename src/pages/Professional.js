@@ -6,7 +6,7 @@ import avatar from '../assets/favicon.jpg';
 // Hooks imports
 import Burger from '../components/Burger';
 import Adsv from '../components/personal/Adsv';
-import Atalhos from '../components/personal/Atalhos';
+import Atalhos from '../components/professional/Atalhos';
 import ListShortcut from '../components/professional/ListShortcut';
 import Posts from '../components/professional/Posts';
 

@@ -125,18 +125,20 @@
 }
 
 .flag{
-    height: 259px;
-    width: 335px;
-    border-radius: 10%;
+    width: 90%;
+    height: 351px;
+    border-radius: 0.5rem;
     border-right: 1px solid #000;
     box-shadow: 0 3px 3px #000;
+    margin: 1.5rem auto ;
 }
 .videoHobbies{
     width: 90%;
     height: 351px;
-    border-radius: 2%;
+    border-radius: 0.5rem;
     border-right: 1px solid #000;
     box-shadow: 0 3px 3px #000;
+    margin: 1.5rem auto;
 }
 @media only screen and (max-width: 1175px){
     .corpo{
