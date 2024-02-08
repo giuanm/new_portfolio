@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new_portfolio/static/css/main.0835e814.css",
-    "main.js": "/new_portfolio/static/js/main.e48f61a9.js",
+    "main.js": "/new_portfolio/static/js/main.2525a21e.js",
     "static/media/Faro.jpg": "/new_portfolio/static/media/Faro.21463797aa1219660998.jpg",
     "static/media/FormDraw.png": "/new_portfolio/static/media/FormDraw.0e2b2013bbfc69f279a1.png",
     "static/media/Lisbon.jpg": "/new_portfolio/static/media/Lisbon.63a0e06355412ac99995.jpg",
@@ -27,10 +27,10 @@
     "index.html": "/new_portfolio/index.html",
     "static/media/uk.svg": "/new_portfolio/static/media/uk.2d92a67640467e5a97ce8c4aa50979d2.svg",
     "main.0835e814.css.map": "/new_portfolio/static/css/main.0835e814.css.map",
-    "main.e48f61a9.js.map": "/new_portfolio/static/js/main.e48f61a9.js.map"
+    "main.2525a21e.js.map": "/new_portfolio/static/js/main.2525a21e.js.map"
   },
   "entrypoints": [
     "static/css/main.0835e814.css",
-    "static/js/main.e48f61a9.js"
+    "static/js/main.2525a21e.js"
   ]
 }
