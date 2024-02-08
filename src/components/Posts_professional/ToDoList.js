@@ -14,8 +14,8 @@ const ToDOList = () => {
         <a href="https://giuanm.github.io/ToDoList/" target="_blank" rel="noreferrer">
           <img src={photo} alt="foto" className='flag'/>
         </a>
+        <p className="descricao">{data.ToDoDesc}</p>
         <a href="https://github.com/giuanm/ToDoList" target="_blank" rel="noreferrer">
-        <p className="descricao">{data.faroPT}</p>
           <h3>GitHub</h3>
         </a>
       </div>)}

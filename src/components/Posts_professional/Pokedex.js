@@ -14,7 +14,7 @@ const Pokedex = () => {
         <a href="https://giuanm.github.io/Pokedex/" target="_blank" rel="noreferrer">
           <img src={photo} alt="foto" className='flag'/>
         </a>
-        <p className="descricao">{data.faroPT}</p>
+        <p className="descricao">{data.pokedexDesc}</p>
         <a href="https://github.com/giuanm/Pokedex" target="_blank" rel="noreferrer">
           <h3>GitHub</h3>
         </a>

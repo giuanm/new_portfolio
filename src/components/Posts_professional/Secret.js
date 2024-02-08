@@ -14,7 +14,7 @@ const SecretWords = () => {
         <a href="https://giuanm.github.io/Secret_Words/" target="_blank" rel="noreferrer">
           <img src={photo} alt="foto" className='flag'/>
         </a>
-        <p className="descricao">{data.faroPT}</p>
+        <p className="descricao">{data.secretDesc}</p>
         <a href="https://github.com/giuanm/Secret_Words" target="_blank" rel="noreferrer">
           <h3>GitHub</h3>
         </a>
