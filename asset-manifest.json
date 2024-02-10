@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new_portfolio/static/css/main.0835e814.css",
-    "main.js": "/new_portfolio/static/js/main.2525a21e.js",
+    "main.js": "/new_portfolio/static/js/main.fc6b1074.js",
     "static/media/Faro.jpg": "/new_portfolio/static/media/Faro.21463797aa1219660998.jpg",
     "static/media/FormDraw.png": "/new_portfolio/static/media/FormDraw.0e2b2013bbfc69f279a1.png",
     "static/media/Lisbon.jpg": "/new_portfolio/static/media/Lisbon.63a0e06355412ac99995.jpg",
@@ -24,13 +24,14 @@
     "static/media/hobbies.svg": "/new_portfolio/static/media/hobbies.6032a2e7e4d06bb90f85e0fdb0cab81e.svg",
     "static/media/personality.svg": "/new_portfolio/static/media/personality.cea50f7cd8261e5c939ce87e6ec128db.svg",
     "static/media/send.svg": "/new_portfolio/static/media/send.1023a90a2d8e58f611cfccfb61861fe4.svg",
+    "static/media/message.svg": "/new_portfolio/static/media/message.ada14af41a635ff31c487906e3a481ec.svg",
     "index.html": "/new_portfolio/index.html",
     "static/media/uk.svg": "/new_portfolio/static/media/uk.2d92a67640467e5a97ce8c4aa50979d2.svg",
     "main.0835e814.css.map": "/new_portfolio/static/css/main.0835e814.css.map",
-    "main.2525a21e.js.map": "/new_portfolio/static/js/main.2525a21e.js.map"
+    "main.fc6b1074.js.map": "/new_portfolio/static/js/main.fc6b1074.js.map"
   },
   "entrypoints": [
     "static/css/main.0835e814.css",
-    "static/js/main.2525a21e.js"
+    "static/js/main.fc6b1074.js"
   ]
 }
