@@ -6,6 +6,7 @@ import ads1 from "../../assets/ads/ads1.png"
 import ads2 from "../../assets/ads/ads2.png"
 import ads3 from "../../assets/ads/ads3.png"
 import ads4 from "../../assets/ads/ads4.png"
+import message from '../../assets/icons/message.svg';
 
 //Import CSS
 import './Adsv.css'
@@ -48,6 +49,9 @@ const Adsv = () => {
     <div>
         <img src={img1} alt="Random Img" className="ads"/>
         <img src={img2} alt="Random Img" className="ads"/>
+        <a href="https://respond.forms.app/giuanferreira/contact" target="_blank" rel="noreferrer">
+          <img src={message} alt="foto" style={{width: '5rem'}}/>
+        </a>
     </div>
   )
 }
