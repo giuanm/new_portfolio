@@ -7,11 +7,10 @@ export const useSoft = (data) =>{
     
     async function soft(){
       try{
-        // console.log(data)
         const softSk = await data.skills.softSkills;
         setSoftSkills(softSk)
       } catch(error){
-  
+        // console.log(error)
       }
     }
 

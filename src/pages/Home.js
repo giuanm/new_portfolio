@@ -8,15 +8,20 @@ import { useHard } from '../hooks/useHardSkills';
 import { useUrlContext } from '../hooks/useUrlContext';
 import { useInfoUserContext } from '../hooks/useInfoUserContext';
 
+// Img's imports
+import br from "../assets/icons/br.svg";
+import uk from "../assets/icons/uk.svg";
 
 function Home() {
 
   const {_name} = useInfoUserContext()
-  const {url } = useUrlContext();
+  const {url, dispatch } = useUrlContext();
   const {data, loading, error} = useFetch(url);
-
   const softSkills = useSoft(data);
-  const hardSkills = useHard(data)
+  const hardSkills = useHard(data);
+  const setUrl = (u) => {
+    dispatch({type: u});
+  }
 
   return (
     <div>
@@ -25,6 +30,10 @@ function Home() {
       {error && <p>{error}</p>}
       {!loading && (
         <main className='mainHome'>
+          <div className='flags_lang_home'>
+            <img src={br} alt="portuguese" className='flag_lang' onClick={() => setUrl("PT")}/>
+            <img src={uk} alt="english" className='flag_lang'  onClick={() => setUrl("EN")}/>
+          </div>
           <header className='header'>
             <img src={data.photo} alt="minha foto" className='photo'/>
             <section className='intro'>

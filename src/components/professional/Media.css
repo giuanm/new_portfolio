@@ -1,0 +1,73 @@
+.divPostProf{ 
+    border-radius: 2%;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: #3f3f3f;
+    border-bottom: 1px solid #000;
+}
+.h1PostProf{
+    margin: auto;
+    padding: 0;
+}
+.h1PostProf a{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        color: #060;
+    }
+}
+.pPostProf{
+    margin: 15px;
+    padding: 0 15px 0 25px;
+    text-align: left;
+}
+.changePostProf{
+    color: #fff;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    &:hover{
+        background-color: #f00;
+        border-radius: 0.5rem;
+    }
+}
+.video{
+    width: 90%;
+    height: 351px;
+    border-radius: 0.5rem;
+    border-right: 1px solid #000;
+    box-shadow: 0 3px 3px #000;
+    margin: 1.5rem auto;
+}
+.imgPostProf{
+    max-width: 95%;
+    min-width: 50%;
+    min-height: 150px;
+    border-radius: 0.5rem;
+    border-right: 1px solid #000;
+    box-shadow: 0 3px 3px #000;
+    margin: 1.5rem auto;
+}
+
+@media only screen and (max-width: 870px){
+    .pPostProf{
+        margin: 0;
+    }
+    .imgPostProf{
+        max-width: 95%;
+        min-width: 50%;
+        min-height: 150px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .imgPostProf{
+        max-width: 95%;
+        min-width: 50%;
+        min-height: 150px;
+    }
+    .pPostProf{
+        padding: 0 10px 0 15px;
+    }
+}

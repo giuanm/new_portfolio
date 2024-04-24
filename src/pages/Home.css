@@ -2,9 +2,30 @@ body{
     background-color: #313131;
     color: #f0f3f5;
 }
-
+.flags_lang_home{
+    display: flex;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.9rem;
+    width: 80px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.flags_lang_home .flag_lang{
+    margin: 0 2px;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+    &:hover{
+        width: 45%;
+        box-shadow: 1px 1px 3px #f00;
+    }
+}
 .mainHome{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     padding: 25px;
@@ -39,14 +60,14 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .HardSkills .hardDetalls{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 20px;
+    margin: 0 auto;
 }
 
 .HardSkills .logoSkill{
@@ -112,6 +133,10 @@ body{
 }
 
 @media only screen and (max-width: 870px) {
+    .flags_lang_home{
+        top: 0.4rem;
+        right: 0.4rem;
+    }
     .mainHome {
         display: grid;
         grid-template-areas:

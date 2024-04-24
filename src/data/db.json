@@ -1,0 +1,11 @@
+{
+  "general": [],
+  "dance":[{"id": "16",
+  "name": "Bachata2",
+  "media": "https://www.youtube.com/embed/mYEp8BmXb5o?si=w6FxTpA9SfZJ_EqP",
+  "type_media": "video",
+  "URLmedia": "https://www.youtube.com/embed/mYEp8BmXb5o?si=w6FxTpA9SfZJ_EqP",
+  "description": "A Bachata também conhecido com seresta, é um gênero musical e uma dança originada na República Dominicana na década de 1960. Considerada um híbrido do bolero (sobre tudo, o bolero rítmico) com outras influências musicais como o chá-chá-chá e o tango. O bolero ritmo latino-americano no período de 1930 à 1950 fazia o prazer do povo dominicano e, com esta influência, nasceu a bachata no final da década de 1950, mas apenas na década de 1980 foi reconhecido e lançada mundialmente a fim de aumentar o turismo na ilha."
+}],
+  "travel": []
+}

@@ -1,0 +1,20 @@
+.flags_lang_Menu{
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    right: 0.5rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.flags_lang_Menu .flag_lang_Menu{
+    margin: 0 20px 10px 8px;
+    padding: 0;
+    width: 35%;
+    height: 35%;
+    border-radius: 0.35rem;
+    &:hover{
+        width: 45%;
+        box-shadow: 1px 1px 3px #f00;
+    }
+}

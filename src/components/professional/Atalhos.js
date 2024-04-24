@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import ListShortcut from './ListShortcut';
-import teste1 from '../../assets/favicon.jpg';
+import teste1 from '../../assets/favicon.png';
+// import { useClickMenuContext } from '../../hooks/useClickMenuContext';
 
 const StyledShortCut1 = styled.ul`
     display: ${({open}) => open ? 'none' : 'flex'};
@@ -28,6 +29,7 @@ const StyledLogo = styled.img`
 `
 const Atalhos = () => {
     const [open, setOpen] = useState(false)
+    // const {_click} = useClickMenuContext();
 
   return (
     <>

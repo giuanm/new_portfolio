@@ -50,7 +50,7 @@ const Burger = () => {
             <div />
             <div />
         </StyledBurger>
-        <Navbar open={open}/>
+        <Navbar open={open} />
     </>
   )
 }

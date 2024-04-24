@@ -8,6 +8,7 @@
 .flag_lang{
     width: 70px;
     margin: 10px;
+    border-radius: 0.5rem;
     
     &:hover{
         cursor: pointer;
@@ -62,9 +63,9 @@
 
     .draw{
         grid-area: draw;
-        width: 50%;
-        min-width: 200px;
-        margin: 0 auto 60px;
+        width: 37%;
+        min-width: 50px;
+        margin: auto;
         padding: 0;
     }
 }

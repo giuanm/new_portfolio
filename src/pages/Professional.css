@@ -1,16 +1,249 @@
+.navProfessional{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 2px 8px #000, 2px 3px 5px #f00;
+}
 
-a{
-    margin: 28px 0;
-    padding: 0 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bolder;
-    
-    &:hover{
-        color: #f00;
+
+.atalhosNavProf{
+    display: none;
+}
+
+.burger{
+    display: none;
+}
+
+.listMenuPage{
+    display: flex;
+    margin-right: 20px;
+    .active{
+        text-decoration: underline;
+        color: #060;
     }
 }
 
-h1{
-    margin: 100px;
+.listMenuPage a, .flags_lang_MenuP{
+    margin: 28px 0;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #f00;
+    font-weight: bolder;
+    
+    &:hover{
+        color: #fff;
+    }
+}
+
+.flags_lang_MenuP{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.flags_lang_MenuP .flag_lang_MenuP{
+    margin: auto 5px;
+    padding: 0;
+    width: 25px;
+    height: 20px;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 2px 2px 5px #f00;
+    }
+}
+
+.menuProfessional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 90px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 8px #3f3f3f;
+    margin: 12.5px 0;
+
+}
+
+.mainProfessional{
+    margin: 70px 0 0 0;    
+    display: grid;
+    grid-template-areas:
+    "fixeAtalhos corpo fixeAdvert"
+    ;
+    background-color: #313131;
+}
+
+.atalhosProf {
+    grid-area: fixeAtalhos;
+    width: 24%;
+    height: 450px;
+    margin: 2.5rem 4.5rem;
+    border-radius: 2%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.advertisingProf{
+    grid-area: fixeAdvert;
+    width: 15%;
+    height: 450px;
+    margin: 2.5rem 0.5rem;
+    padding: 0;
+    border-radius: 2%;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpoProf{
+    grid-area: corpo;
+    width: 790px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 2%;
+}
+
+.postes{
+    width: 100%;
+    margin-top: 15px;
+    padding: 2rem 0;
+    background-color: #3f3f3f;
+    border-radius: 2%;
+    border-bottom: 1px solid #000;
+}
+
+.postes h1{
+    margin: 0;
+    padding: 0;
+}
+
+.descricao{
+    margin: 15px 15px;
+    padding: 0 15px 0 35px;
+    text-align: left;
+}
+
+.flag{
+    width: 90%;
+    height: 351px;
+    border-radius: 0.5rem;
+    border-right: 1px solid #000;
+    box-shadow: 0 3px 3px #000;
+    margin: 1.5rem auto ;
+}
+@media only screen and (max-width: 1175px){
+    .corpoProf{
+        width: 650px;
+    }
+    .atalhosProf{
+        width: 16.5%;
+        margin: 2.5rem 3rem;
+     }
+    .advertisingProf {
+        width: 16.5%;
+        margin: 2.5rem 5px;
+    }
+}
+
+@media only screen and (max-width: 1015px){
+    .advertisingProf{
+        position: fixed;
+        top: 320px;
+        left: 0;
+        width: 15%;
+        margin: 2.5rem 22px;
+    }
+    .navTitle{
+        width: 80px;
+    }
+    .mainProfessional{
+        grid-template-areas:
+        "fixeAtalhos corpo"
+        ;
+        justify-content: end;
+        padding: 0;
+        padding-right: 70px;
+    }
+    .atalhosProf{
+        width: 18%;
+        margin: 1.5rem 35px;
+     }
+    .corpoProf{
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .mainProfessional, .burger{
+        display: flex;
+    }
+    .mainProfessional{
+        padding: 0 1rem;
+    }
+    .atalhosProf, .advertisingProf, .listMenuPage, .avatar{
+        display: none;
+    }
+    .atalhosNav{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: auto 20px;
+    }
+    .navProfessional p{
+        padding: 0 5px;
+        color: #f00;
+        font-weight: bolder;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .navProfessional .avatar{
+        margin-top: 15px;
+    }
+    .corpoProf{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .flag{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 610px){
+    .navProfessional .navTitle{
+        margin: auto;
+    }
+    .mainProfessional{
+        display: flex;
+        flex-direction: column;
+    }
+    .menuProfessional{
+        margin: 10px 15px;
+    }
+    .postes{
+        height: auto;
+        padding: 10px 0;
+    }
 }

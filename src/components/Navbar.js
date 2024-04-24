@@ -1,9 +1,14 @@
 import styled from 'styled-components'
+import './Navbar.css'
 
 import {NavLink} from 'react-router-dom'
 
 import {useFetch} from "../hooks/useFetch";
 import { useUrlContext } from '../hooks/useUrlContext';
+
+// Img's imports
+import br from "../assets/icons/br.svg";
+import uk from "../assets/icons/uk.svg";
 
 const Ul = styled.ul`
   position: fixed;
@@ -42,15 +47,22 @@ const Ul = styled.ul`
 `
 
 const Navbar = ({open}) => {
-  const {url} = useUrlContext();
+  const {url, dispatch } = useUrlContext();
   const {data, loading} = useFetch(url);
+  const setUrl = (u) => {
+    dispatch({type: u});
+  }
 
   return (
     <Ul open={open}>
       {!loading && (<>
-        <NavLink to="/new_portfolio/home">Home</NavLink>
-        <NavLink to="/new_portfolio/personal">{data.personal}</NavLink>
-        <NavLink to="/new_portfolio/professional">{data.professional}</NavLink>
+        <NavLink to="/new_portfolio/home" className={"btnHMenu"}>Home</NavLink>
+        <NavLink to="/new_portfolio/personal" className={"btnHMenu"}>{data.personal}</NavLink>
+        <NavLink to="/new_portfolio/professional"className={"btnHMenu"}>{data.professional}</NavLink>
+        <div className='flags_lang_Menu'>
+            <img src={br} alt="portuguese" className='flag_lang_Menu' onClick={() => setUrl("PT")}/>
+            <img src={uk} alt="english" className='flag_lang_Menu'  onClick={() => setUrl("EN")}/>
+        </div>
       </>)}
     </Ul>
   )

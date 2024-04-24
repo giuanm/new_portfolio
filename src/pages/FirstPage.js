@@ -10,7 +10,7 @@ import styled from 'styled-components';
 import './FirstPage.css'
 
 // Img's imports
-import pt from "../assets/icons/pt.svg";
+import br from "../assets/icons/br.svg";
 import uk from "../assets/icons/uk.svg";
 import conect from "../assets/img_language.jpg";
 import FormDraw from "../assets/FormDraw.png";
@@ -60,7 +60,7 @@ const First_Page = () => {
         {!loading && (<>
           <h2 className='titleLanguage'>Selecione o idioma <br/> Select the language</h2>
           <div className='flags_lang'>
-            <img src={pt} alt="portuguese" className='flag_lang' onClick={() => setUrl("PT")}/>
+            <img src={br} alt="portuguese" className='flag_lang' onClick={() => setUrl("PT")}/>
             <img src={uk} alt="english" className='flag_lang'  onClick={() => setUrl("EN")}/>
           </div>
           <img src={conect} alt="world_conect" className='conect'/>
