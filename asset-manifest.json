@@ -1,25 +1,16 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.0835e814.css",
-    "main.js": "/new_portfolio/static/js/main.fc6b1074.js",
-    "static/media/Faro.jpg": "/new_portfolio/static/media/Faro.21463797aa1219660998.jpg",
+    "main.css": "/new_portfolio/static/css/main.1ed9fe3b.css",
+    "main.js": "/new_portfolio/static/js/main.4eefa538.js",
+    "static/media/favicon.png": "/new_portfolio/static/media/favicon.165dc5a8cc62f30f2b28.png",
     "static/media/FormDraw.png": "/new_portfolio/static/media/FormDraw.0e2b2013bbfc69f279a1.png",
-    "static/media/Lisbon.jpg": "/new_portfolio/static/media/Lisbon.63a0e06355412ac99995.jpg",
-    "static/media/london.jpg": "/new_portfolio/static/media/london.5f037e172ecf74436a38.jpg",
-    "static/media/SecretWords.jpg": "/new_portfolio/static/media/SecretWords.54dac19139270040c9ac.jpg",
-    "static/media/Project.jpg": "/new_portfolio/static/media/Project.0a1f6e469103eeab5a73.jpg",
-    "static/media/Pokedex.jpg": "/new_portfolio/static/media/Pokedex.d4ea1bac926250649efa.jpg",
+    "static/media/ads2.jpg": "/new_portfolio/static/media/ads2.54dac19139270040c9ac.jpg",
+    "static/media/ads1.jpg": "/new_portfolio/static/media/ads1.d4ea1bac926250649efa.jpg",
     "static/media/img_language.jpg": "/new_portfolio/static/media/img_language.e4151c9899fd4006ce47.jpg",
-    "static/media/avatarPersonality.svg": "/new_portfolio/static/media/avatarPersonality.5b92bee57ffe060b973c1526561ee04b.svg",
-    "static/media/ads2.png": "/new_portfolio/static/media/ads2.56b9b5c6e36eaefc74ae.png",
-    "static/media/favicon.jpg": "/new_portfolio/static/media/favicon.51835e096233628e0aec.jpg",
-    "static/media/ads4.png": "/new_portfolio/static/media/ads4.daa7f06260d10631cb5f.png",
-    "static/media/TodoList.jpg": "/new_portfolio/static/media/TodoList.ac3606e5cc1b143c08e6.jpg",
-    "static/media/ads1.png": "/new_portfolio/static/media/ads1.cbbbd5d4be8a504996ea.png",
-    "static/media/ads3.png": "/new_portfolio/static/media/ads3.54e2540a0259bf174404.png",
+    "static/media/ads4.png": "/new_portfolio/static/media/ads4.82ae50f974ea1d4be755.png",
     "static/media/icons8-github.gif": "/new_portfolio/static/media/icons8-github.2f3eb7a07dd668b3fc91.gif",
-    "static/media/NLP.jpeg": "/new_portfolio/static/media/NLP.31df2a3b2c7e7ad67b90.jpeg",
-    "static/media/pt.svg": "/new_portfolio/static/media/pt.93eb0a0adfeabc65832086aa44225b2b.svg",
+    "static/media/ads3.png": "/new_portfolio/static/media/ads3.853108d8200f4d876d06.png",
+    "static/media/br.svg": "/new_portfolio/static/media/br.4c24e2000cf6afb77c6358f62844e42e.svg",
     "static/media/aboutMe.svg": "/new_portfolio/static/media/aboutMe.c85f2b2f0311fb783e591cd799d1850d.svg",
     "static/media/hobbies.svg": "/new_portfolio/static/media/hobbies.6032a2e7e4d06bb90f85e0fdb0cab81e.svg",
     "static/media/personality.svg": "/new_portfolio/static/media/personality.cea50f7cd8261e5c939ce87e6ec128db.svg",
@@ -27,11 +18,13 @@
     "static/media/message.svg": "/new_portfolio/static/media/message.ada14af41a635ff31c487906e3a481ec.svg",
     "index.html": "/new_portfolio/index.html",
     "static/media/uk.svg": "/new_portfolio/static/media/uk.2d92a67640467e5a97ce8c4aa50979d2.svg",
-    "main.0835e814.css.map": "/new_portfolio/static/css/main.0835e814.css.map",
-    "main.fc6b1074.js.map": "/new_portfolio/static/js/main.fc6b1074.js.map"
+    "static/media/edit.svg": "/new_portfolio/static/media/edit.651f1157edd2422056b0da53584a9bba.svg",
+    "static/media/trash_bin.svg": "/new_portfolio/static/media/trash_bin.6a0eec91392075a79ef6ea3331fff490.svg",
+    "main.1ed9fe3b.css.map": "/new_portfolio/static/css/main.1ed9fe3b.css.map",
+    "main.4eefa538.js.map": "/new_portfolio/static/js/main.4eefa538.js.map"
   },
   "entrypoints": [
-    "static/css/main.0835e814.css",
-    "static/js/main.fc6b1074.js"
+    "static/css/main.1ed9fe3b.css",
+    "static/js/main.4eefa538.js"
   ]
 }
