@@ -6,6 +6,13 @@ import ads1 from "../assets/ads/ads1.jpg"
 import ads2 from "../assets/ads/ads2.jpg"
 import ads3 from "../assets/ads/ads3.png"
 import ads4 from "../assets/ads/ads4.png"
+import ads5 from "../assets/ads/ads5.png"
+import ads6 from "../assets/ads/ads6.png"
+import ads7 from "../assets/ads/ads7.png"
+import ads8 from "../assets/ads/ads8.png"
+import ads9 from "../assets/ads/ads9.png"
+import ads10 from "../assets/ads/ads10.png"
+import ads11 from "../assets/ads/ads11.png"
 import message from '../assets/icons/message.svg';
 
 //Import CSS
@@ -23,7 +30,7 @@ const Adsv = () => {
     };
     
     // ADS array
-    const ads = useMemo(() => [ads1, ads2, ads3, ads4], []);
+    const ads = useMemo(() => [ads1, ads2, ads3, ads4, ads5, ads6, ads7, ads8, ads9, ads10, ads11], []);
     
 
     const [img1, setImg1] = useState(ads3);
